@@ -14,6 +14,11 @@ The game application is available in english and french version.
 
 ### Practicing the memory
 
-![alt text](https://github.com/CHEREF-Mehdi/EducativeGame/blob/master/ImageForReadMe/Screenshot_3.jpg)
+<img src="ImageForReadMe/Screenshot_3.jpg">
 
 ### Practice the mathematical operations skills
+<img align="left" src="ImageForReadMe/Screenshot_4.jpg">
+<img align="left" src="ImageForReadMe/Screenshot_5.jpg">
+<img align="left" src="ImageForReadMe/Screenshot_6.jpg">
+<img align="left" src="ImageForReadMe/Screenshot_7.jpg">
+<img src="ImageForReadMe/Screenshot_8.jpg">
