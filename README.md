@@ -11,14 +11,15 @@ The game application is available in english and french version.
 <img align="left" src="ImageForReadMe/Screenshot_1.jpg">
 <img src="ImageForReadMe/Screenshot_2.jpg">
 
-
-### Practicing the memory
-
-<img src="ImageForReadMe/Screenshot_3.jpg">
-
-### Practice the mathematical operations skills
+### Practicing the mathematical operations skills
 <img align="left" src="ImageForReadMe/Screenshot_4.jpg">
 <img align="left" src="ImageForReadMe/Screenshot_5.jpg">
 <img align="left" src="ImageForReadMe/Screenshot_6.jpg">
 <img align="left" src="ImageForReadMe/Screenshot_7.jpg">
 <img src="ImageForReadMe/Screenshot_8.jpg">
+
+### Practicing the memory
+
+<img src="ImageForReadMe/Screenshot_3.jpg">
+
+
