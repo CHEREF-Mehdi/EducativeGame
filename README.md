@@ -8,9 +8,9 @@ The game application is available in english and french version.
 
 ### The start menu
 
-![alt text](https://github.com/CHEREF-Mehdi/EducativeGame/blob/master/ImageForReadMe/Screenshot_1.jpg)
+![alt text](https://github.com/CHEREF-Mehdi/EducativeGame/blob/master/ImageForReadMe/Screenshot_1.jpg){:style="float: right;"}
 
-![alt text](https://github.com/CHEREF-Mehdi/EducativeGame/blob/master/ImageForReadMe/Screenshot_2.jpg)
+![alt text](https://github.com/CHEREF-Mehdi/EducativeGame/blob/master/ImageForReadMe/Screenshot_2.jpg){:style="float: right;"}
 
 ### Practicing the memory
 
