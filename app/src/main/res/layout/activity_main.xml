@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sta.app.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="59dp"
+        android:alpha="0.5"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/a1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-42dp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:background="@drawable/back"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:text="Nouvelle Partie"
+        android:textSize="42sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="-5dp"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignLeft="@+id/tv"
+        android:layout_alignStart="@+id/tv"
+        android:layout_marginBottom="32dp"
+        app:srcCompat="@drawable/minus"
+        />
+
+    <TextView
+        android:background="@drawable/back"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="80dp"
+        android:paddingLeft="80dp"
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:text="Quitter"
+        android:textSize="42sp" />
+</RelativeLayout>

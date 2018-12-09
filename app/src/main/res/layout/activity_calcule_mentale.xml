@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    tools:context="com.example.sta.app.CalculeMentale">
+
+
+    <LinearLayout
+        android:id="@+id/choiceLevel"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Level1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="#ffffff"
+            android:text="Level 1"
+            android:textSize="20sp"/>
+
+        <Button
+
+            android:id="@+id/Level2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="#ffffff"
+            android:text="Level 2"
+            android:textSize="20sp"/>
+
+        <Button
+
+            android:id="@+id/Level3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="Level 3"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+        <Button
+
+            android:id="@+id/Level4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="#ffffff"
+            android:text="Level 4"
+            android:textSize="20sp"/>
+
+        <Button
+
+            android:id="@+id/Level5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="Level 5"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <Button
+
+            android:id="@+id/Level6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="Level 6"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/HeaderLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/Time"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/timeTextViewLabel"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="Time"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+        <TextView android:id="@+id/timeTextView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="0"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/score"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/colorAccent">
+            <TextView
+                android:id="@+id/scoreTextViewLabel"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="Score"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+            <TextView android:id="@+id/scoreTextView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="0"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/levelLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryDark">
+            <TextView
+                android:id="@+id/levelTextViewLabel"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="Level"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+            <TextView android:id="@+id/levelTextView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:text="1"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/firstLayout"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:gravity="left"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/firstImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/abc"
+        />
+
+    <TextView
+        android:id="@+id/firstTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Click Start"
+        android:gravity="center"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/secondImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/rocket"/>
+
+    <ImageView
+        android:id="@+id/thirdImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/plus"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/secondLayout"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:gravity="left"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/firstImageViewL2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/rgb"
+        />
+
+    <TextView
+        android:id="@+id/firstTextViewL2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="To play"
+        android:gravity="center"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/secondImageViewL2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/figures"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="00dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"
+        android:background="@drawable/equal"
+        android:progressDrawable="@drawable/circular_progressbar"/>
+
+    <ImageView
+        android:id="@+id/money"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/money"/>
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/thirdLayout"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/leftLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/fImageViewL3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:srcCompat="@drawable/correct"/>
+
+        <ImageView
+            android:id="@+id/sImageViewL3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:srcCompat="@drawable/error"/>
+
+        <ImageView
+            android:id="@+id/tImageViewL3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:srcCompat="@drawable/error"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rightLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+
+
+
+        <Button
+
+            android:id="@+id/respond1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="Button1"
+            android:textColor="#ff6600"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/startPlay"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/start"
+            />
+
+        <Button
+            android:id="@+id/respond2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="Button2"
+            android:textColor="#006666"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/respond3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:text="Button3"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>
