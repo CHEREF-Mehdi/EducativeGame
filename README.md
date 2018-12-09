@@ -7,7 +7,7 @@ The game application is available in english and french version.
 # About the game
 
 ### The start menu
-
+<img align="right" src="ImageForReadMe/Screenshot_1.jpg">
 ![alt text](https://github.com/CHEREF-Mehdi/EducativeGame/blob/master/ImageForReadMe/Screenshot_1.jpg){:style="float: right;"}
 
 ![alt text](https://github.com/CHEREF-Mehdi/EducativeGame/blob/master/ImageForReadMe/Screenshot_2.jpg){:style="float: right;"}
